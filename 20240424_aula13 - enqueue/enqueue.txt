@@ -1,0 +1,28 @@
+Enqueue
+
+if (inicio == NULL)
+{
+	fim = (no*) malloc (sizeof(no));
+	fim -> next = NULL;
+	inicio = fim;
+	auxiliar = fim;
+	EnterData();
+	c ++;
+}
+else
+{
+	if (c > 10)
+	{
+		printf("\nQueue Overflow...");
+		system("pause");
+	}
+	else
+	{
+		fim = (no*) malloc (sizeof(no));
+		auxiliar -> next = fim;
+		fim -> next = NULL;
+		auxiliar = fim;
+		c ++;
+		Enterdata();
+	}
+}

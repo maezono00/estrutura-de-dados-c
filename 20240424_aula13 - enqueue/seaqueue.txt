@@ -1,0 +1,39 @@
+Seaqueue
+
+if (inicio == NULL)
+{
+	printf("\nQueue is Empty");
+	system("\npause");
+}
+else
+{
+	achou = 0;
+	k = 0;
+
+	auxiliar = inicio;
+	printf("\nInforme o mix do job: ");
+	scanf("%d", &task);
+	
+	while(auxiliar)
+	{
+		k ++;
+		
+		if (task == c)
+		{
+			printf("\nA task se encontre na Queue posição %d", k);
+			system("pause");
+			
+			achou = 1;
+			break;
+		}
+		else
+		{
+			auxiliar = auxiliar -> next;
+		}
+	}
+	if (achou == 0)
+	{
+		printf("\nTask not found Queue");
+		system("\npause");
+	}
+}

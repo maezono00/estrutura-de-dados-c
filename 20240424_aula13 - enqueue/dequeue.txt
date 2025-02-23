@@ -1,0 +1,33 @@
+Dequeue
+
+if (inicio == NULL)
+{
+	printf("\nQueue is Empty");
+	system("pause");
+}
+else
+{
+	auxiliar = inicio;
+	if (inicio -> next == NULL && fim -> next == NULL)
+	{
+		free(auxiliar);
+		printf("\nRemovido o último elemento da fila.");
+		system("pause");
+		
+		inicio = NULL;
+		fim = NULL;
+		auxiliar = NULL;
+		
+		c = 0;
+	}
+	else
+	{
+		auxiliar = inicio;
+		inicio = inicio -> next;
+		free(auxiliar);
+		printf("\nRemovido o elemento da fila");
+		system("pause");
+		
+		c --;
+	}
+}

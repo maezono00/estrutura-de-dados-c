@@ -1,0 +1,24 @@
+APLICAÇÕES DAS QUEUES
+
+As filas foram introduzidas nos meios computacionais, no momento em que os ambientes computacionais, como, mainframe, surgiu nas organizações.
+Este ambiente trabalha com recursos compartilhado como processador, memórias e impressão.
+Para organizar estas solicitações foi estabelecido as filas, formas de organizar as tarefas, tasks, neste ambiente. Cada fila possui tarefas a ser cumprida a partir dos JOBS, que são desenvolvidos pelos programadores. Cada programa, deverá ser desenvolvido a fila a partir de um JOB. Portanto, prodemos ter:
+
+JOB: Compilação;
+	COBOL
+	FORKL
+	PL/I
+	RPG
+	
+JOB: Impressão;
+JOB: Execução;
+
+Cada ambiente trata de forma diferente os JOBs.
+Unisys: Algol.
+IBM: JCL.
+
+Operações na fila
+	-Enqueue
+		Insere elemento no final da fila
+	-Dequeue
+	-Sequeue

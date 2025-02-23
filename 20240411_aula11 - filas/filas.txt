@@ -1,0 +1,11 @@
+Filas
+
+	Fundamentos:
+		Fila é um tipo de Lista Linear em que as inserções são feitas num extremo, chamado final, e as remoções são feitas no outro, chamado começo.
+		Cada vez que uma inserção é executada, um novo item é alocado no final da Fila, e em qualquer momento, apenas o item que está há mais tempo na fila pode ser removido numa fila, a ordem de saída dos itens corresponde diretamente à ordem de entrada, de modo que o primeiro item que entra é o primeiro que sai.
+		Em vista disso as filas são denominadas como Listas FiFo (FIRST-IN / FIRST-OUT) ou Primeiro que Entra - Primeiro que Sai.
+		
+		Exemplos de Filas:
+		*Banco (caixa de banco)
+		*Processo (mainframe)
+		*Impressão (fila de impressão)
