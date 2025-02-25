@@ -1,0 +1,16 @@
+void Exibir(nodo * root)
+{
+	if (raiz == NULL)
+	{
+		printf("\nTree is Empty\n");
+		system("pause");
+	}
+	else
+	{
+		printf("\n%d <==> %s", raiz -> codigo, raiz -> nome);
+		
+		if (root -> back != NULL) Exibir (root -> back);
+		if (root -> next != NULL) Exibir (root -> next);
+		if (root -> centro != NULL) Exibir (root -> centro);
+	}
+}
